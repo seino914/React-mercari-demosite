@@ -29,3 +29,17 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # react-mercari-demosite
+
+
+### 環境構築参考
+https://zenn.dev/stray/books/e3dbdf3f7aeac6/viewer/chapter2
+
+### format
+```
+npm run format
+```
+
+### lint
+```
+npm run lint:fix
+```
