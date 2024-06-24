@@ -1,6 +1,6 @@
 import './App.css';
 import { Categories } from './components';
-import { PageHeader, PageNavigation } from './layouts';
+import { PageFooter, PageHeader, PageNavigation } from './layouts';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Categories />
       </div>
       <div className="min-h-screen"></div>
+      <PageFooter />
       <PageNavigation />
     </div>
   );
