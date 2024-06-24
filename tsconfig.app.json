@@ -9,8 +9,8 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node", // 修正: 'bundler' から 'node' に変更
+    // "allowImportingTsExtensions": true, // 削除: TypeScript の公式オプションではないため
     "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
