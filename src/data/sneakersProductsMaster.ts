@@ -1,6 +1,5 @@
 import { ProductsMaster } from '../types';
 
-// 画像の拡張子変更
 export const sneakersProductsMaster: ProductsMaster = {
   keyword: 'メンズスニーカー',
   category: {
